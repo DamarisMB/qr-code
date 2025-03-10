@@ -1,0 +1,64 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eeeeee;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  min-height: 60vh;
+  background: #d0daeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* QR Code Card */
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+p {
+  font-size: 13px;
+  color: rgb(167, 157, 157);
+  padding: 0 10px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}

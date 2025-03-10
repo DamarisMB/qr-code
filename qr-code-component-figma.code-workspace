@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../qr-code-component-figma"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "qr-code-component-main"
+  }
+}
