@@ -1,14 +1,3 @@
-name = "your-worker-name"
-type = "javascript"  # or "rust" based on your setup
-
 [build]
-command = "npm run build"  # or the command you use to build your project
-
-# Specify the entry point for your worker script
-main = "src/index.js"  # Replace with your actual entry-point file
-
-[env.production]
-# Additional production-specific configurations (if any)
-
-[env.staging]
-# Staging configurations (if any)
+command = "npm run build"
+directory = "./public"   

@@ -21,11 +21,6 @@ body {
   max-width: 900px;
   min-height: 60vh;
   background: #d0daeb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* QR Code Card */
